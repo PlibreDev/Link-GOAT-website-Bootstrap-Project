@@ -1,0 +1,69 @@
+:root {
+   --hf:rgb(52, 121, 40);
+   --bg:rgb(255, 251, 230);   
+   --body:rgb(192, 235, 166);
+   --border:rgb(252, 205, 42);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: var(--hf);
+    z-index: 5;
+}
+nav img {
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+footer img {
+    max-height:300px;
+    min-height:100px;
+    left: auto;
+    right: auto;
+}
+footer {
+    margin-top: 12rem;
+    background-color: var(--hf);
+    left: auto;
+    right: auto;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+body {
+    background-color: var(--bg);
+    width: 100%;
+}
+#jumbotron, #jumbotron div {
+    background-color: var(--body);
+}
+table.table {
+    background-color: var(--body) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
